@@ -148,7 +148,7 @@ const Pagination = ({ items, pageSize, onPageChange }) => {
               <div className="imageContainer">
               <img key={item.id} src={item.image_link} alt="image goes here" />
               <p><span style={{fontWeight:'bold'}}>{item.name}</span> <br></br>
-              Latin Name:<span style={{ fontStyle:'italic'}}>{item.latin_name}</span>  <br></br>
+              Latin Name: <span style={{ fontStyle:'italic'}}>{item.latin_name}</span>  <br></br>
               Lifespan: {item.lifespan}  <br></br>
               Habitat: {item.habitat}  <br></br>
               Diet: {item.diet}  <br></br>
